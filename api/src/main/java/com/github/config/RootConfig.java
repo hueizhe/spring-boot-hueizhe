@@ -1,12 +1,12 @@
 package com.github.config;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.boot.jdbc.DatabaseDriver;
-import org.springframework.context.annotation.Bean;
 
 @Configurable
 public class RootConfig {
-
+    private static Logger logger = LoggerFactory.getLogger(RootConfig.class);
 
 
 }
